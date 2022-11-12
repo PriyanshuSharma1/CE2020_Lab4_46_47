@@ -4,8 +4,8 @@
 class AbstractBST
 {
 public:
-    virtual void isEmpty()=0;
-    virtual void addBST()=0;
+    virtual bool isEmpty()=0;
+    virtual Node* addBST(Node *rootptr, int val)=0;
     virtual void removeBST()=0;
     virtual void searchBST()=0;
 };
