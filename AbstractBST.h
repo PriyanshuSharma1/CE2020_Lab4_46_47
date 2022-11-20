@@ -4,8 +4,10 @@
 class AbstractBST
 {
 public:
-    virtual void isEmpty()=0;
-    virtual void addBST()=0;
+    virtual bool isEmpty()=0;
+    virtual void addBST(int index,int data)=0;
+    virtual void max()=0;
+    virtual void min()=0;
     virtual void removeBST()=0;
     virtual void searchBST()=0;
 };
