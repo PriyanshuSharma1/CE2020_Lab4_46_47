@@ -42,7 +42,7 @@ void linkedlist::addBSTNode(int key){
         else if ((new_node->data < temp -> data) && ( temp->left == NULL))
         {
           temp->left = new_node;
-          cout<<"added to"<<endl;
+          cout<<"added to left of node"<<endl;
           break;
         } 
         else if (new_node->data < temp -> data )
@@ -52,7 +52,7 @@ void linkedlist::addBSTNode(int key){
         else if ((new_node->data > temp -> data) && ( temp->right == NULL))
         {
          temp->right = new_node;
-         cout<<"hello 66"<<endl;
+         cout<<"added to right of node"<<endl;
          break;
         }
         else
